@@ -1,0 +1,109 @@
+.avatar-view {
+  display: block;
+  /*margin: 0% auto 5%;*/
+  max-height: 320px;
+  max-width: 320px;
+  /*border: 3px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);*/
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.avatar-view img {
+  width: 100%;
+}
+
+.avatar-body {
+  /*padding-right: 15px;
+  padding-left: 15px;*/
+}
+
+.avatar-upload {
+  overflow: hidden;
+}
+
+.avatar-upload label {
+  display: block;
+  float: left;
+  clear: left;
+  width: 170px;
+}
+
+.avatar-upload input {
+  display: block;
+  margin-left: 110px;
+}
+
+.avater-alert {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar-wrapper {
+  height: 364px;
+  width: 100%;
+  margin-top: 15px;
+  /*box-shadow: inset 0 0 5px rgba(0,0,0,.25);*/
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #fff;
+  overflow: hidden;
+  position: inherit;
+}
+
+.avatar-wrapper img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.avatar-preview {
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.avatar-preview:hover {
+  border-color: #ccf;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+.avatar-preview img {
+  width: 100%;
+}
+
+.preview-md {
+  height: 320px;
+  width: 320px;
+  margin-top: 15px;
+}
+
+.preview-sm {
+  height: 138px;
+  width: 138px;
+}
+
+.preview-xs {
+  height: 42px;
+  width: 42px;
+}
+
+@media (min-width: 992px) {
+  .avatar-preview {
+    float: none;
+  }
+}
+
+.avatar-btns {
+  margin-top: 76px;
+  /*margin-bottom: 15px;*/
+}
+
+.avatar-btns > .btn-group {
+  margin-top: 15px;
+}

@@ -1,0 +1,116 @@
+.file-box {
+    float: left;
+    width: 220px;
+}
+
+.dd-item.public-folder {
+    background-color: #fff8e7;
+    /*border: 1px solid #d7dadc;*/
+}
+
+.file a.file-delete {
+    border-bottom: 1px solid #d7dadc;
+    border-left: 1px solid #d7dadc;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 20px;
+    display: none;
+}
+
+.file:hover a.file-delete {
+    display: block;
+
+}
+
+.file a.file-delete:hover {
+    background: red;
+}
+
+.file a.file-delete:hover i {
+    color: #fff;
+}
+
+.file-manager h5 {
+    /*text-transform: uppercase;*/
+}
+.file-manager {
+    list-style: outside none none;
+}
+
+/*.folder-list li.active a {
+    text-decoration: underline;
+}*/
+
+.folder-list span.title {
+    color: #666666;
+}
+
+.folder-list a:hover {
+    text-decoration: none;
+}
+
+/*.folder-list li i {
+    color: #3d4d5d;
+}*/
+
+.file-manager h5.tag-title {
+    margin-top: 20px;
+}
+
+.file:hover {
+    border: 1px solid #d7dadc;
+}
+
+.file {
+    background-color: #ffffff;
+    border: 1px solid #e7eaec;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 0;
+    position: relative;
+}
+
+
+.file a:hover {
+    text-decoration: none;
+}
+
+.file-manager .hr-line-dashed {
+    margin: 15px 0;
+}
+.file .icon, .file .image {
+    height: 100px;
+    overflow: hidden;
+}
+.file .icon {
+    padding: 15px 10px;
+    text-align: center;
+}
+.btn.filter {
+    color: inherit;
+    font-size: 11px;
+    margin-right: 10px;
+    padding:0;
+}
+.btn.filter.active {
+    text-decoration: underline;
+}
+.file .icon i {
+    color: #dadada;
+    font-size: 70px;
+}
+.file .file-name {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7eaec;
+    padding: 10px;
+}
+.file-name .small {
+    color: #676a6c;
+}
+
+#fm-container .mix{
+    display: none;
+}

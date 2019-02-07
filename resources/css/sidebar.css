@@ -1,0 +1,290 @@
+#main-sidebar, #main-sidebar .ui-layout-pane {
+    background-color: #2f4050;
+    border:0;
+}
+
+/*#main-sidebar .navbar-nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+
+#sidebar-nav .nav-header {
+    /* https://www.google.ru/search?q=geometric+background */
+    padding: 15px;
+    background: #293846 url("../../resources/images/profile-bg.png") repeat scroll 0 0;
+    /*background: #293846 url("https://s-media-cache-ak0.pinimg.com/236x/8f/e7/c2/8fe7c203d6d89bf82f538f016c62a2cd.jpg") repeat scroll 0 0;*/
+    /*background: #293846 url("https://image.freepik.com/free-vector/black-background-in-geometric-style_23-2147517805.jpg") repeat scroll 0 0;*/
+    /*background: #293846 url("http://www.siwallpaperhd.com/wp-content/uploads/2015/07/geometric_black_background.png") repeat scroll 0 0;*/
+    background-size: cover;
+}
+
+#sidebar-nav .nav-header .profile-element {
+    text-align: center;
+}
+
+#sidebar-nav .nav-header .profile-element img {
+    height: 42px !important;
+    width: 42px !important;
+}
+#sidebar-nav .nav-header ul.dropdown-menu {
+    width:200px; left:50%; margin-left:-100px;
+    min-width: 200px;
+    /*left: 50%;
+    right: auto;
+    transform: translate(-50%, 0);*/
+}
+
+#sidebar-nav .nav-header a.dropdown-toggle {
+    color: #fff;
+    margin-top: 10px;
+}
+
+#sidebar-nav .nav-header a.dropdown-toggle:hover,
+#sidebar-nav .nav-header a.dropdown-toggle:focus {
+    text-decoration: none;
+}
+
+#sidebar-nav ul.sidebar-block,
+#sidebar-nav ul.sidebar-block ul {
+    padding-left:0;
+    list-style-type:none;
+    color:#a7b1c2;
+    background-color: #34495E;/*#34495E*/
+}
+
+#sidebar-nav ul.sidebar-block .badge {
+    font-size:90%;
+}
+
+/*#sidebar-nav ul.sidebar-block ul {
+    padding-top:10px;
+}*/
+
+#sidebar-nav ul.sidebar-block a {
+    color:#a7b1c2;
+}
+
+#sidebar-nav ul.sidebar-block a .fa.fa-circle {
+    color:#4B5D72;
+}
+
+
+
+
+#sidebar-nav ul.sidebar-block a.path-only {
+    opacity: 0.5;
+}
+
+/*#sidebar-nav ul.sidebar-block > li > .fa.block-icon {
+    color: #fff;
+}*/
+
+
+#sidebar-nav ul.sidebar-block a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#sidebar-nav ul.sidebar-block > li > .row a.cat-item {
+    padding-top:7px;
+    padding-bottom:7px
+
+}
+
+#sidebar-nav ul.sidebar-block > li > .row {
+    display:block;
+    position:relative;
+}
+
+#sidebar-nav ul.sidebar-block > li > .header {
+    padding:7px 0 7px 0;
+}
+
+#sidebar-nav ul.sidebar-block .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#sidebar-nav ul.sidebar-block .row > [class*=col-sm-]:first-child {
+    padding-left:15px;
+}
+#sidebar-nav ul.sidebar-block .row > [class*=col-sm-]:last-child {
+    padding-right:15px;
+}
+
+#sidebar-nav ul.sidebar-block .row > [class*=col-sm-] {
+    padding-left:5px;
+    padding-right:5px;
+}
+
+#sidebar-nav ul.sidebar-block li.active a .nav-label,
+#sidebar-nav ul.sidebar-block li.selected a .nav-label,
+#sidebar-nav ul.sidebar-block li.selected > a {
+    color: #fff;
+}
+
+#sidebar-nav ul.sidebar-block li.active {
+    background-color: #293846;
+}
+
+
+#sidebar-nav ul.sidebar-block > li .btn-toggle {
+    text-align: right;
+    position: absolute;
+    right:0;
+    top:0;
+    height:100%;
+    padding-top:7px;
+}
+
+#sidebar-nav ul.sidebar-block > li .btn-toggle:hover {
+    background-color: #293846;
+    cursor: pointer;
+    color: #fff;
+}
+
+#sidebar-nav ul.sidebar-block > li .btn-toggle i.fa {
+    transform: rotate(0deg);
+    transition: transform 0.3s linear;
+}
+
+#sidebar-nav ul.sidebar-block > li .btn-toggle i.fa.open {
+    transform: rotate(180deg);
+    transition: transform 0.3s linear;
+}
+
+
+
+#sidebar-nav ul.sidebar-block li ul:not(.sidebar-block) .row {
+    padding:3px 0 3px 0;
+}
+
+/*#sidebar-nav ul.sidebar-block li ul:not(.sidebar-block) {*/
+/*#sidebar-nav ul.sidebar-block li ul li .row [class*=col-sm-]:first-child {
+    padding-left: 20px;
+}*/
+
+#sidebar-nav ul.sidebar-block li ul {
+    /*display:none;*/
+    background-color: rgba(33,33,33,0.08);
+    transition: opacity .5s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+#sidebar-nav ul.sidebar-block li.open > ul {
+    opacity: 1;
+    height: auto;
+    display: block;
+}
+
+#sidebar-nav ul.sidebar-block .badge.badge-count {
+    background-color: rgba(255,255,255,0.03);
+    color: #fff;
+}
+
+/*
+#categories-nav ul li ul.conditions-decode {
+    color:#a7b1c2;
+}
+
+#categories-nav ul li ul.conditions-decode a.remove-condition {
+    padding: 0px;
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    z-index: 1;
+
+}
+
+#categories-nav ul li ul.conditions-decode .row {
+    padding: 5px 0px;
+}
+
+#categories-nav ul li ul.conditions-decode {
+    padding-left:15px;
+}
+
+#categories-nav ul.tools-level {
+    background-color: #34495E
+}
+
+#categories-nav ul.tools-level li ul {
+}
+
+
+#categories-nav .separate-block {
+    border-top: 1px solid #293846 ;
+}
+
+#categories-nav .separate-block:before {
+    background-color: #2F4050;
+    color: #fff ;
+}
+
+#categories-nav .badge {
+    font-size:75%;
+    padding: 2px 5px;
+}
+
+#categories-nav ul {
+    padding-left:0;
+    list-style-type:none
+}
+
+#categories-nav ul li ul {
+    display:none;
+    background-color: rgba(33,33,33,0.08);
+    padding-left: 30px;
+}
+
+#categories-nav ul li > a {
+    text-decoration: none;
+    display:block;
+    position:relative;
+    padding:10px 0 10px 8px;
+    color:#a7b1c2;
+}
+
+#categories-nav ul li a .nav-icon {
+}
+
+#categories-nav ul li a:hover {
+    color: #fff;
+}
+
+#categories-nav ul li.active a .nav-label {
+    color: #fff;
+}
+
+#categories-nav ul li.selected a .nav-label,
+#categories-nav ul li.selected > a i.fa:first-child {
+    color: #fff;
+}
+
+#categories-nav ul li a .toggle-icon:hover {
+    color: #fff;
+    background-color: #293846;
+}
+
+#categories-nav ul li.active {
+    background-color: #293846;
+}
+
+#categories-nav ul li a .action-icon {
+    position:absolute;
+    right:0;
+    top:2px;
+    padding:10px;
+    z-index:1;
+}
+
+#categories-nav ul > li > a i {
+    margin-right: 6px;
+}
+
+
+*/

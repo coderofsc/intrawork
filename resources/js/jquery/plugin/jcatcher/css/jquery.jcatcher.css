@@ -1,0 +1,31 @@
+.jcatcher {
+    /*http://habrahabr.ru/post/18080/*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.jcatcher tr[data-id] td {
+    cursor: pointer;
+    /*vertical-align: middle;*/
+}
+
+.jcatcher tr.selected td,
+.jcatcher .dd-content.selected {
+    background-color: #428BCA !important;
+    /*border-color: #bce8f1;*/
+    border:none;
+    color: #fff;
+}
+
+.jcatcher tr.selected td > a.title,
+.jcatcher .dd-content.selected > a.title {
+    color: #fff;
+}
+
+.jcatcher tr.selected td a.catpath,
+.jcatcher .dd-content.selected a.catpath{
+    color: #dfdfdf;
+    text-decoration: underline;
+}
+

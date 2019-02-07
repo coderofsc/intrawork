@@ -1,0 +1,28 @@
+table.treetable tr.collapsed span.indenter a i:after {
+    content: "\f067";
+}
+
+table.treetable tr.expanded span.indenter a i:after {
+    content: "\f068";
+}
+
+table.treetable tr.branch {
+  background-color: #f9f9f9;
+}
+
+table.treetable tr.selected {
+  background-color: #3875d7;
+  color: #fff;
+}
+
+table.treetable tr span.indenter a {
+    outline: none; /* Expander shows outline after upgrading to 3.0 (#141) */
+    color: inherit;
+}
+
+table.treetable tr.collapsed.selected span.indenter a i {
+    content: "\f067";
+}
+
+table.treetable tr.expanded.selected span.indenter a {
+}

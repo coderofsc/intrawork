@@ -1,0 +1,110 @@
+ul#notes,ul#notes li{
+    list-style:none;
+}
+
+ul#notes {
+    overflow:hidden;
+    padding:3em;
+}
+ul#notes li div.note{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:210px;
+    width:210px;
+    padding:1em;
+    -moz-box-shadow:4px 4px 6px rgba(33,33,33,.3);
+    -webkit-box-shadow: 4px 4px 6px rgba(33,33,33,.3);
+    box-shadow: 4px 4px 6px rgba(33,33,33,.3);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+}
+ul#notes li{
+    margin:1em;
+    float:left;
+}
+ul#notes li h2{
+    font-size:140%;
+    font-weight:bold;
+    padding-bottom:10px;
+    margin:0;
+}
+ul#notes li p{
+    /*font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:180%;*/
+    max-height: 10em;
+    display: block;
+    overflow-y: auto;
+}
+
+ul#notes li a.delete {
+    position: absolute;
+    top:10px;
+    right: 10px;
+    display: none;
+}
+
+ul#notes li div.note:hover a.delete {
+    display: block;
+}
+
+ul#notes li span.date{
+    position: absolute;
+    bottom:3px;
+    right: 10px;
+    color: #b8b8b8;
+    font-size:11px;
+    /*font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:180%;*/
+}
+
+ul#notes li div.note:hover span.date {
+    color:#333;
+}
+
+
+ul#notes li div.note{
+    -webkit-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    -moz-transform:rotate(-6deg);
+}
+ul#notes li:nth-child(even) div.note{
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background:#cfc;
+}
+ul#notes li:nth-child(3n) div.note{
+    -o-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+    background:#ccf;
+}
+ul#notes li:nth-child(5n) div.note{
+    -o-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+}
+ul#notes li div.note:hover,ul#notes li div.note:focus{
+    /*box-shadow:7px 7px 7px rgba(33,33,33,.7);
+    -moz-box-shadow:7px 7px 7px rgba(33,33,33,.7);
+    -webkit-box-shadow: 7px 7px 7px rgba(33,33,33,.7);*/
+
+    -moz-box-shadow:4px 4px 6px rgba(33,33,33,.3);
+    -webkit-box-shadow: 4px 4px 6px rgba(33,33,33,.3);
+    box-shadow: 4px 4px 6px rgba(33,33,33,.3);
+
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    position:relative;
+    z-index:5;
+}

@@ -1,0 +1,90 @@
+#todo-list li > .todo-toggle {
+    float: left;
+    width: 30px;
+    margin-top: 4px;
+}
+#todo-list li > .todo-title {
+    margin-right: 10px;
+    overflow: hidden;
+}
+#todo-list li .todo-title .todo-title-sp {
+    margin-right: 70px;
+    padding:5px 10px;
+    display: block;
+    font-size:12px;
+    border:1px solid transparent;
+}
+
+#todo-list li .todo-title .todo-actions {
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+
+/*#todo-list li .todo-title .input-group {
+    position: absolute;
+    top:-5px;
+}*/
+
+#todo-list li.todo-done .todo-title-sp {
+    color: #bbbbbb;
+    text-decoration: line-through;
+
+}
+#todo-list li.todo-done {
+    background: #f6f6f6 none repeat scroll 0 0;
+}
+#todo-list li.todo-done:hover {
+    background: #f4f4f4 none repeat scroll 0 0;
+}
+#todo-list li:hover {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+#todo-list li .todo-config {
+    display: none;
+}
+#todo-list li:hover > .todo-config {
+    display: block;
+    margin-bottom: 0 !important;
+}
+
+#todo-list {
+    margin: 0;
+    padding: 0;
+    list-style: outside none none;
+}
+
+.ui-sortable > li {
+    background: #f5f6f8 none repeat scroll 0 0;
+    border-bottom: medium none !important;
+    margin-bottom: 2px;
+    padding: 10px 0 10px 35px !important;
+    position: relative;
+}
+
+.ui-sortable li i {
+    cursor: pointer;
+    left: 6px;
+    padding: 4px 10px 0;
+    position: absolute;
+    margin-top: 4px;
+}
+
+#todo-list li.list-primary {
+    border-left: 3px solid #41cac0;
+}
+#todo-list li.list-success {
+    border-left: 3px solid #78cd51;
+}
+#todo-list li.list-danger {
+    border-left: 3px solid #ff6c60;
+}
+#todo-list li.list-warning {
+    border-left: 3px solid #f1c500;
+}
+#todo-list li.list-info {
+    border-left: 3px solid #58c9f3;
+}
+#todo-list li.list-inverse {
+    border-left: 3px solid #bec3c7;
+}
