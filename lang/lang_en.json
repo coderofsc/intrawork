@@ -1,0 +1,796 @@
+{
+  "intrawork": "Intrawork",
+  "meta_title": "Intrawork &mdash; task management system",
+  "meta_keywords": "Intrawork &mdash; task management system",
+  "meta_description": "Intrawork &mdash; task management system",
+
+  "sidebar": {
+    "save_filters": "Saved filters",
+    "selection_parameters": "Selection parameters",
+    "your_participation": "Your participation"
+  },
+  "navbar": {
+    "home": "Home",
+    "my": "My",
+    "my_dd": {
+      "executor": "I am a performer",
+      "customer": "I am a customer",
+      "responsible": "I am a responsible",
+      "member": "I am a member"
+    },
+    "demands": "Tasks",
+    "demands_dd": {
+      "extsearch": "Advanced search",
+      "responsible": "I am a responsible",
+      "contactdemands": "Client tasks"
+    },
+    "setup_dd": {
+      "about": "About the program"
+    },
+    "company": "Company",
+    "global_search": "Search",
+    "tour": "Short tour",
+    "profile_dd": {
+      "profile": "Profile",
+      "edit_profile": "Change profile",
+      "super_admin_mode_off": "Disable access restriction",
+      "super_admin_mode_on": "Enable access restriction",
+      "exit": "Exit"
+    }
+  },
+  "tabs": {
+    "general": "Main",
+    "bank_details": "Details",
+    "contacts": "Contacts",
+    "extra": "Additionally",
+    "members": "Members",
+    "files": "Files",
+    "message": "Message",
+    "messages": "Messages",
+    "history": "History",
+    "joins": "Links",
+    "modules": "Modules",
+    "categories": "Categories",
+    "demands": "Tasks",
+    "notification": "Notification"
+
+
+  },
+  "modules": {
+    "search": {
+      "text": {
+        "search_result": "Search results",
+        "query_time": "Request time"
+      }
+
+    },
+    "report": {
+      "name": "Report of execution"
+    },
+
+    "events": {
+      "name": "Events",
+      "morph": {
+        "one": "event",
+        "two": "events",
+        "five": "events",
+        "genitive": "event"
+      },
+
+      "text": {
+        "action": "Action"
+      },
+      "crud": {
+        "create": "created",
+        "update": "changed",
+        "delete": "deleted"
+      },
+      "tuning_name": "Setting of event list"
+    },
+
+    "forgotpass": {
+      "name": "Password recovery"
+    },
+
+    "login": {
+      "name": "Login",
+      "text": {
+        "forgot_password": "Forgot password",
+        "leader": "<p>Please note your attention to the fact that Intrawork is a constantly developing system.</p><p>If you don't see in it any desired components, buttons or windows, we are always ready to listen to your ideas and implement them for the benefit of all users.</p><p><i>The development team.</i></p>",
+        "header_create_account": "Have you no account yet?",
+        "create_account": "Create account",
+        "made_in": "Made in Russia"
+      }
+    },
+
+    "logout": {
+      "name": "Logout"
+    },
+
+    "files": {
+      "name": "files",
+      "morph": {
+        "one": "file",
+        "two": "files",
+        "five": "files",
+        "genitive": "file"
+      }
+    },
+
+    "contacts_types": {
+      "name": "Типы контактов",
+      "morph": {
+        "one": "тип контакта",
+        "two": "типа контакта",
+        "five": "типов контактов",
+        "genitive": "тип контакта"
+      }
+    },
+
+    "projects": {
+      "name": "projects",
+      "morph": {
+        "one": "project",
+        "two": "projects",
+        "five": "projects",
+        "genitive": "project"
+      }
+    },
+
+    "demands_types": {
+      "name": "Типы заявк",
+      "morph": {
+        "one": "тип заявки",
+        "two": "типа заявк",
+        "five": "типов заявк",
+        "genitive": "тип заявки"
+      }
+    },
+
+
+    "dashboard": {
+      "name": "Home",
+      "text": {
+        "headers": {
+          "member_demands": "Tasks with your participation",
+          "new_demands": "New tasks",
+          "last_news": "Latest news",
+          "last_events": "Recent events of the week"
+        },
+        "chart": {
+          "title": "Pulse of the company",
+          "yAxis_title": "Changing the status of tasks"
+        }
+      }
+    },
+    "categories": {
+      "name": "Categories",
+      "morph": {
+        "one": "category",
+        "two": "categories",
+        "five": "categories",
+        "genitive": "category"
+      },
+      "text": {
+        "assigned_to": "Assigned to",
+        "available_to": "Available for",
+        "headers": {
+          "last_demands": "Recent tasks"
+        }
+      }
+    },
+    "contacts": {
+      "name": "Clients",
+      "morph": {
+        "one": "contact",
+        "two": "contacts",
+        "five": "contacts",
+        "genitive": "contact"
+      },
+      "text": {
+        "headers": {
+          "last_demands": "Recent tasks"
+        }
+      }
+    },
+    "demands": {
+      "name": "Tasks",
+      "morph": {
+        "one": "task",
+        "two": "tasks",
+        "five": "tasks",
+        "genitive": "task"
+      },
+      "status": {
+        "new": "New",
+        "work": "In work",
+        "complete": "Finished",
+        "deny": "Reject",
+        "pause": "Pause",
+        "spam": "Spam",
+        "check": "Check",
+        "waiting": "Waiting"
+      },
+      "priority": {
+        "low": "Low",
+        "mid": "Middle",
+        "hi": "High"
+      },
+
+      "criticality": {
+        "low": "Low",
+        "mid": "Middle",
+        "hi": "High",
+        "expr": "blocking"
+      },
+      "text": {
+        "joined": "Nested task"
+      }
+    },
+    "departments": {
+      "name": "Departments",
+      "morph": {
+        "one": "department",
+        "two": "departments",
+        "five": "departments",
+        "genitive": "department"
+      }
+    },
+    "mrooms": {
+      "name": "Meeting rooms",
+      "morph": {
+        "one": "meeting room",
+        "two": "meeting rooms",
+        "five": "meeting rooms",
+        "genitive": "meeting room"
+      }
+    },
+    "mroomsres": {
+      "name": "Reserves of the meeting room",
+      "morph": {
+        "one": "reserve",
+        "two": "reserves",
+        "five": "reserves",
+        "genitive": "reserve"
+      }
+    },
+    "news": {
+      "name": "News",
+      "morph": {
+        "one": "news",
+        "two": "news",
+        "five": "news",
+        "genitive": "news"
+      }
+    },
+    "posts": {
+      "name": "Positions",
+      "morph": {
+        "one": "position",
+        "two": "positions",
+        "five": "positions",
+        "genitive": "position"
+      }
+    },
+    "roles": {
+      "name": "Roles",
+      "morph": {
+        "one": "role",
+        "two": "roles",
+        "five": "roles",
+        "genitive": "role"
+      },
+      "morph_for": {
+        "one": "role",
+        "two": "roles",
+        "five": "roles"
+      },
+      "text": {
+        "set_for": "Set up for",
+        "headers": {
+          "module_access": "Access to modules",
+          "categories_access": "Access to categories"
+        }
+      }
+
+
+    },
+    "users": {
+      "name": "Users",
+      "morph": {
+        "one": "user",
+        "two": "users",
+        "five": "users",
+        "genitive": "user"
+      },
+      "morph_for": {
+        "one": "user",
+        "two": "users",
+        "five": "users"
+      }
+
+    },
+    "mailbots": {
+      "name": "Email bots",
+      "morph": {
+        "one": "email bot",
+        "two": "email bots",
+        "five": "email bots",
+        "genitive": "email bot"
+      },
+      "alerts": {
+        "abstract": "<p>Letters sent to the configured mailbox will be automatically read (you can find out from your server administrator about the frequency) and converted into tasks, where the customer is the sender of the email.</p><p>Tasks are placed in a category called &quot;Inbox&quot; specified in the settings of the email bot.</p><p><strong>Attention!</strong> Email robot of Intrawork deletes emails from the server after treatment.</p>",
+        "check_connect": "If the connection fails or the mailbox is not empty (delete all the letters before connecting) status of the email robot will switch to the 'Off' mode. You will be notified by the system about it."
+      }
+    }
+  },
+
+  "text": {
+    "hello": "Hello",
+    "welcome": "Welcome to Intrawork",
+    "goodbye": "Goodbye",
+    "not_specified": "Not specified",
+    "not_selected_plural": "not selected",
+    "found_total": "Total found",
+    "found_total_conditions": "Under to the conditions of selection total found",
+    "close": "Close",
+    "expand_all": "Expand all",
+    "collapse_all": "Collapse all",
+    "interval_from": "From",
+    "interval_to": "To",
+    "iw_auto_action": "Automatically by Intrawork",
+    "auto_change": "Automatic change",
+    "yes": "Yes",
+    "no": "No",
+    "unknown_error": "Unknown error",
+    "object_morph": {
+      "one": "Object",
+      "two": "objects",
+      "five": "objects"
+    },
+    "demand_history_empty": "There are not a fixed actions by the task",
+    "load_more": "Load more",
+    "show_more": "Show more",
+    "add_files": "Add files",
+    "nothing_found": "Nothing found by the specified conditions",
+    "access_denied": "Access denied",
+    "message_morph": {
+      "one": "message",
+      "two": "messages",
+      "five": "messages"
+    },
+
+    "downwards": "Down",
+    "unknown_controller": "Unknown component",
+    "unknown": "unknown",
+    "ago": "back",
+    "inbox": "Inbox",
+    "setup": "Setting"
+  },
+
+  "sort": {
+    "name": "Sort",
+    "dir": "Direction",
+    "asc": "Descending",
+    "desc": "Ascending"
+  },
+
+  "actions": {
+    "edit": "Edit",
+    "add": "Add",
+    "create": "Create",
+    "delete": "Delete",
+    "save": "Save",
+    "view": "View",
+    "reset": "Reset",
+    "search": "Search",
+    "join": "Insert",
+    "reserved": "Book",
+    "enter":  "Enter"
+  },
+
+  "next_actions": {
+    "list": "Go to list",
+    "view": "View",
+    "create": "Create more",
+    "join": "Join more",
+    "stay": "Stay here"
+  },
+
+  "months": {
+    "full": {
+      "1":"january",
+      "2":"february",
+      "3":"march",
+      "4":"april",
+      "5":"may",
+      "6":"june",
+      "7":"july",
+      "8":"august",
+      "9":"september",
+      "10":"october",
+      "11":"november",
+      "12":"december"
+    },
+    "short": {
+      "1": "jan",
+      "2": "feb",
+      "3": "mar",
+      "4": "apr",
+      "5": "may",
+      "6": "jun",
+      "7": "jul",
+      "8": "aug",
+      "9": "sep",
+      "10": "oct",
+      "11": "nov",
+      "12": "dec"
+    }
+  },
+
+  "weekdays": {
+    "1": "Monday",
+    "2": "Tuesday",
+    "3": "Wednesday",
+    "4": "Thursday",
+    "5": "Friday",
+    "6": "Saturday",
+    "7": "Sunday"
+  },
+
+  "dates": {
+    "today": "today",
+    "yesterday": "yesterday",
+    "midnight": "midnight",
+    "noon": "noon",
+    "hours": "Hours",
+    "year_morph": {
+      "one": "year",
+      "two": "years",
+      "five": "years"
+    },
+    "mon_morph": {
+      "one": "month",
+      "two": "months",
+      "five": "months"
+    },
+    "week_morph": {
+      "one": "week",
+      "two": "weeks",
+      "five": "weeks"
+    },
+    "day_morph": {
+      "one": "day",
+      "two": "days",
+      "five": "days"
+    },
+    "hour_morph": {
+      "one": "hour",
+      "two": "hours",
+      "five": "hours"
+    },
+    "min_morph": {
+      "one": "minute",
+      "two": "minutes",
+      "five": "minutes"
+    },
+    "sec_morph": {
+      "one": "second",
+      "two": "seconds",
+      "five": "seconds"
+    }
+  },
+
+  "forms": {
+    "labels": {
+      "events": {
+        "type_object": "Object type",
+        "text": "Code / Name"
+      },
+
+      "history": {
+        "new_value": "New value",
+        "old_value": "Old value"
+      },
+
+      "reports": {
+        "time_in_work": "Time to work"
+      },
+      "categories": {
+        "parent_id": "Parent category",
+        "auto_complete": "Automatic completion of tasks through",
+        "auto_prolong": "Automatic renewal of the tasks on",
+        "icon": "Icon",
+        "access_role": "Distribution of access by role"
+      },
+      "contacts": {
+        "type": "Type",
+        "legal": "Person",
+        "opf": "Legal form",
+        "company_name": "Company name",
+        "bank_account": "Operating account",
+        "bank_offset_account": "Correspondent account",
+        "bank_name": "Bank name",
+        "bank_inn": "TIN",
+        "bank_kpp": "PPC",
+        "bank_bik": "BIC",
+        "legal_address": "Legal address"
+      },
+      "demands": {
+        "demand": "Description of tasks",
+        "required_time": "Required hours",
+        "status": "Status",
+        "priority": "Priority",
+        "criticality": "Criticality",
+        "attach": "Attachments",
+        "members": "Members",
+        "time_in_work": "Was in work",
+        "remain_time": "Left",
+        "implement_percent": "Completed",
+        "messages": "Messages"
+      },
+      "dprt": {
+        "parent_id": "Parent department"
+      },
+      "mailbots": {
+        "status": "Collection of email",
+        "confirm": "Confirmation of processing",
+        "from_unknown": "Unknown address",
+        "address": "Email address",
+        "master": "Main",
+        "protocol": "Protocol",
+        "server": "Server",
+        "port": "Port",
+        "login": "Login",
+        "in": "Accepted",
+        "out": "Sent"
+      },
+      "mrooms": {
+        "color": "Text of the news",
+        "places": "Number of seats",
+        "projector": "Projector",
+        "loudspeaker": "Speaker",
+        "microphone": "Microphone",
+        "whiteboard": "Marker board",
+        "conference": "Conference call "
+
+      },
+      "mroomsres": {
+        "start": "Begin",
+        "end": "End",
+        "face_reserved": "Reserved",
+        "status": "Status",
+        "remain": "Before releasing left",
+        "remain_short": "Left",
+        "duration": "Duration"
+
+
+      },
+      "news": {
+        "news": "Text of the news",
+        "publish_date": "Date of publication"
+      },
+      "roles": {
+        "modules": "To modules",
+        "categories": "To categories"
+      },
+      "users": {
+        "change_password": "Change password",
+        "room": "Room",
+        "lang": "Interface language",
+        "exec_notice": "Send the list of executed tasks",
+        "exec_notice_weekdays": "Periodicity",
+        "events_notification": "Event notification",
+        "notice_time": "Time",
+        "network_status": "In the system",
+        "work": "Working",
+        "activity_date": "Activity"
+
+      },
+      "property": "Property",
+      "code": "Code",
+      "date": "Date",
+      "face_surname": "Surname",
+      "face_name": "Name",
+      "face_patronymic": "Middle Name",
+      "email": "Email",
+      "captcha" :"Security code",
+      "password": "Password",
+      "password_confirm": "Password again",
+      "phone": "Phone",
+      "phone_ext": "Incremental code",
+      "phone_mobile": "Mobile",
+      "fact_address": "Postal address",
+      "site": "Site",
+      "title": "Header",
+      "text": "Text",
+      "name": "Title",
+      "style": "style",
+      "descr": "Additional information",
+      "registration_date": "Date of registration",
+      "created_date": "Created date",
+      "composition": "Composition",
+      "fio": "Full name",
+      "reg_start"     : "Registration  &le;",
+      "reg_end"       : "Registration  &ge;",
+      "act_start"     : "Activity &le;",
+      "act_end"       : "Activity &ge;",
+      "create_start"     : "Create &le;",
+      "create_end"       : "Create &ge;",
+      "date_start"     : "Date &le;",
+      "date_end"       : "Date &ge;",
+      "login": "Login"
+    },
+    "help_blocks": {
+      "categories": {
+        "auto_complete": "Tasks automatically change the status to %s after the specified time since the last message by the performer. Only for tasks with specified status.",
+        "auto_prolong": "Elapsed time required to execute tasks, will be automatically increased by the specified period. Only for tasks with status %s, the last message which is the response of the expert."
+      },
+      "mailbots": {
+        "category": "Letters collected with this mailbox will be placed in the specified category",
+        "confirm": "Send a reply confirming the processing of letters by Intrawork",
+        "from_unknown": "Allow Intrawork to create tasks from messages, email address which does not belong to the users of the system",
+        "from_unknown_prohibit": "Handle emails from unknown addresses forbidden for your billing plan",
+        "master": "By default, all outgoing emails will be sent from address of this mailbox"
+      }
+    },
+    "legends": {
+      "spokesman": "Representative",
+      "demands": {
+        "time": "Time",
+        "statuses": "Statuses",
+        "members": "Members"
+      },
+      "mailbots": {
+        "mailbox": "Mail box"
+      },
+      "roles": {
+        "access": "Access control"
+      },
+      "users": {
+        "events_notification": "Detailed setup alerts"
+      }
+    },
+    "actions": {
+      "create": "Add",
+      "edit": "Edit",
+      "join": "Attachment"
+    }
+  },
+  "members": {
+    "executor": "Performer",
+    "customer": "Customer",
+    "responsible": "Responsible",
+    "member": "Participant",
+    "eu_plural": "Performers",
+    "cu_plural": "Customers",
+    "ru_plural": "Responsibles",
+    "member_plural": "Participants",
+    "observer": "Observer",
+    "observer_plural": "Observers"
+
+  },
+
+  "validate_message": {
+    "query_empty": "Entered an empty search query",
+    "required": "Field %s is required",
+    "hex_color": "Specify a color in HEX format",
+    "required_crud": "Specify at least one access to module or category",
+    "valid_email": "Field %s must contain a valid email address",
+    "unique_user": "User with this email address already exists in the system",
+    "unknown_user": "User with this email address is not registered",
+    "matches_password": "Passwords must match",
+    "forgotpass": {
+      "unknown_magic":"Invalid request code of password recovery or its validity has expired.",
+      "unknown_error": "An unknown error has occurred. New password not installed!"
+    },
+    "login": {
+      "unknown_user": "User with this pair of login/password is not registered"
+    },
+    "mailbots": {
+      "mailbox_not_clear": "In the mailbox found %d %s. Delete all messages in it."
+    }
+
+  },
+
+  "crud": {
+    "create": "Create",
+    "read": "View",
+    "update": "Edit",
+    "delete": "Delete"
+  },
+
+  "confirm": {
+    "delete": {
+      "title": "",
+      "message": "<span class=text-danger><strong>All information will be permanently deleted!</strong></span> Are you sure that you want to delete this record?"
+    },
+    "mroomsres_move": {
+      "title": "Transfer the reserve",
+      "message": "Meeting room %name% moved to the new time is %time%. Do save changes?"
+    },
+    "deleted_dm_record": {
+      "title": "Disable tracking",
+      "message": "Are you sure that you don't want to track this task? Information about your participation will saved."
+    },
+    "deleted_filter": {
+      "title": "Delete filter",
+      "message": "<span class=text-danger><strong>All information will be permanently deleted!</strong></span> Are you sure thet you want to delete this filter?"
+    }
+  },
+
+  "toastr": {
+    "mrooms": {
+      "changetime": {
+        "message": "The date and time of the reserve was successfully changed!"
+      },
+      "setinterval": {
+        "title": "Interval is set",
+        "message": "The date of the meeting room reservation is established in the form!"
+      }
+    },
+    "update_order": {
+      "title": "Order updated",
+      "message": "The order and nesting of branches are updated!"
+    },
+    "deleted_dm_record": {
+      "title": "Tracing disabled",
+      "message": "The task was successfully deleted from the list with your participation!"
+    }
+  },
+
+  "alerts": {
+    "success": {
+      "save_filter": "Filter saved successfully"
+    },
+    "error": {
+      "save_filter": "Error saving filter",
+      "role_not_categories": "This role don't have available categories or values"
+    },
+    "info": {
+      "attached_ctrl":"Hold down the CTRL key, you can choose multiple files to download."
+    }
+  },
+
+  "mailman": {
+    "warning_change_title": "Please, during the correspondence, do not change the request number in the subject.",
+    "no_reply": "This message is created by alerts generated system of Intrawork. Do not reply to it.",
+    "create_date": "Date and time of message creation",
+    "support": "Support service",
+    "notification_info": "This letter is created according to your notification settings",
+    "notification_setup": "You can change them in <a style=\"color: #F2F1EF\" href=\"%susers/edit/%s/#tab-notification\">your profile</a>, in the tab \"Alerts\".",
+    "request_details": "Request details",
+    "request_id": "Request code",
+    "enter_url": "Login URL",
+    "subjects": {
+      "forgot_password_query": "Password change request ",
+      "forgot_password_complete": "Password successfully changed",
+      "exec_notice": "List of executed tasks"
+    },
+    "letters": {
+      "register_demand": "This is an automatic message confirming the successful creation of the query.<br/>Please do not create duplicate queries. Wait for a response of specialist, that will come to this email.<br/><br/><strong>Be sure to leave unchanged the subject of the letter.</strong><br/>",
+      "forgotpass": {
+        "complete": {
+          "ip": "Your password of Intrawork was changed from the IP-address %s",
+          "new_access": "New details of access",
+          "warning": "If you did not change the access password, please contact us at the address"
+        },
+        "query": {
+          "request": "You have requested to reset the password to login to Intrawork.",
+          "ignore": "If you did not make this request, please ignore this message. The request will be automatically cancelled after 24 hours.",
+          "instruction": "To reset your password, please follow the link",
+          "time_warning": "The link will be active during the day",
+          "repeat": "In case of repetition of similar letters are not associated with your order please to contact by address"
+        }
+      },
+      "exec_notice": "At time %s you have %d %s on the execution.",
+      "before_complete": {
+        "query": "This is an automated message reminding that we are already %s did not receive information about the current request.<br/>Please specify will there be additions?",
+        "close_in": "The request will be automatically closed after %s at the absence of additions",
+        "find": "You can find it in Intrawork on the tab \"My\" - \"I'm a customer\" - \"Closed",
+        "another_quest": "If you have any other question you can always contact us by writing to the address %s"
+
+      }
+    }
+  }
+}
