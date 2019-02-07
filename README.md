@@ -1,4 +1,4 @@
-# Intrawork project manager
+# Intrawork free project manager
 
 
 ### [Демонстрация](http://demo.intrawork.ru/ "Демонстрация") ###
@@ -53,4 +53,6 @@
 #### Author
 Alexey Yuriev  
 a.yuriev@src-code.ru  
-http://src-code.ru
+http://src-code.ru  
+  
+[![alt-текст](http://src-code.ru/images/logo_small.png "Исходный Код")](http://src-code.ru/ "Исходный Код")
