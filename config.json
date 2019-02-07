@@ -1,0 +1,21 @@
+{
+  "limit": {
+    "users_limit": 50,
+    "mailbots_limit": 3,
+    "accept_mail_from_unknow_users": true
+  },
+
+  "dev_mode": true,
+  "domain_name": "intrawork.loc",
+  "lang_default": "ru",
+  "inside_time_period": 300,
+  "layout_west_initclosed": true,
+  "mailman_no_reply_address": "no-reply@intrawork.loc",
+
+  "db": {
+    "host": "localhost",
+    "name": "intrawork",
+    "user": "root",
+    "password": ""
+  }
+}
