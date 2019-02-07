@@ -1,0 +1,1 @@
+{include file="categories/view/wrap.tpl" cat_data=$object_data}

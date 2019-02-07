@@ -1,0 +1,1 @@
+{include file="projects/view/wrap.tpl" project_data=$object_data}

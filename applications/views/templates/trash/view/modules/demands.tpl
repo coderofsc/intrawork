@@ -1,0 +1,1 @@
+{include file="demands/view/block_demand.tpl" demand_data=$object_data detail=true}

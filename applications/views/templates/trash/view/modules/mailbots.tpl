@@ -1,0 +1,1 @@
+{include file="mailbots/view/wrap.tpl" mb_data=$object_data}

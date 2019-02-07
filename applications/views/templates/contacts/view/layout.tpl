@@ -1,0 +1,1 @@
+{include file="helpers/view_layout.tpl" id=$contact_data.id}

@@ -1,0 +1,1 @@
+{include file="mrooms/view/wrap.tpl" mroom_data=$object_data}

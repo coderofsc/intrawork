@@ -1,0 +1,1 @@
+{include file="posts/view/wrap.tpl" post_data=$object_data}

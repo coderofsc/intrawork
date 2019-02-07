@@ -1,0 +1,1 @@
+{$hash|storage_path:$dir}{*{$size}*}{if $thumb}thumbs/{$hash}_{$thumb}{else}{$hash}{if $name}/{$name}{/if}{/if}.{if $thumb}jpg{else}{$ext}{/if}

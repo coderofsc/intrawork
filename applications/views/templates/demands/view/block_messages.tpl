@@ -1,0 +1,1 @@
+{include file="demands/view/messages/list.tpl" ar_messages=$ar_messages}

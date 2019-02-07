@@ -1,0 +1,1 @@
+{include file="news/view/wrap.tpl" news_data=$object_data}

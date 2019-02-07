@@ -1,0 +1,1 @@
+{include file="roles/view/wrap.tpl" role_data=$object_data}
