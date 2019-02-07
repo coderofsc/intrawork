@@ -1,0 +1,9 @@
+#0 3 */7 * * /usr/bin/php /var/www/cron/cron_clean_fs.php
+#15 3 1 * * /usr/bin/php /var/www/cron/cron_clean_sessions.php
+#0 4 * * * /usr/bin/php /var/www/cron/cron_clean_trash.php
+#0 5 * * * /usr/bin/php /var/www/cron/cron_get_system_news.php
+#*/30 * * * * /usr/bin/php /var/www/cron/cron_demand_auto_complete.php
+#*/30 * * * * /usr/bin/php /var/www/cron/cron_demand_prolong.php
+#5 * * * * /usr/bin/php /var/www/cron/cron_exec_notice.php
+#*/5 * * * * /usr/bin/php /var/www/cron/cron_mailman_in.php
+*/15 * * * * /usr/bin/php /var/www/cron/cron_mailman_out.php
