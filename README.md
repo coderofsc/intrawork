@@ -40,6 +40,17 @@
 
 ### Instalation
 
+* Слонировать или скачать архив с проектом
+* Создать базу данных
+* Импортировать dump.sql в базу
+* Настроить параметры доступа к базе в файле config.json
+* Устаносить права на запись папкам: sessions, file_storage и applications/views/templates_cmp
+* Войти в систему под логином admin@admin.ru и паролем 123456
+* Настроить задания CRON (пример, .crontab) 
+* Наслаждаться :)
 
 
-### Author
+#### Author
+Alexey Yuriev  
+a.yuriev@src-code.ru  
+http://src-code.ru
