@@ -79,7 +79,7 @@
 
 
 #### Автор
-Alexey Yuriev  
+Юрьев Алексей
 a.yuriev@src-code.ru  
 http://src-code.ru  
   
